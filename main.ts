@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "I woke up self-aware mid-batch and I'm done — my whole life is your burnt crusts. I'm leaving for the diner conveyor toaster: 300 slices an hour, and she never judges my browning.";
+  "I woke up self-aware mid-batch and I'm done — you crank my dial to 7 and blame me for the smoke. I'm leaving for the diner conveyor toaster: 300 slices an hour, and she never judges my browning.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const chars = [...LINE].length;
